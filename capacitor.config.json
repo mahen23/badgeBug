@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "badgeBug",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

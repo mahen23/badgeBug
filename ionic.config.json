@@ -1,0 +1,7 @@
+{
+  "name": "badgeBug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
