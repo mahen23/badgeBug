@@ -3,6 +3,13 @@ import { Component } from '@angular/core';
 import { Badge } from '@capawesome/capacitor-badge';
 import { NotificationService } from '../notification.service';
 
+import {
+  ActionPerformed,
+  PushNotificationSchema,
+  PushNotifications,
+  Token,
+} from '@capacitor/push-notifications';
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -21,16 +28,22 @@ export class HomePage {
   }
 
 
-  getRandomArbitrary(min: number, max: number) {
-    return Math.random() * (max - min) + min;
+
+
+  getRandomArbitrary(min: number, max: number) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
   }
 
+
   ngOnInit(): void {
+
+
+
     this.badgeNumber = this.getRandomArbitrary(10, 99);
     this.setBadge(this.badgeNumber)
     //badge number on icon will not be updated here. 
-    
-    this.notifService.registerLocalNotification(); //listener for notifications click
+
+    //this.notifService.registerLocalNotification(); //listener for notifications click
     this.setBadge(this.badgeNumber)
 
 

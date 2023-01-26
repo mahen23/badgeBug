@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518493043028",
+    "project_id": "novomaitr",
+    "storage_bucket": "novomaitr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518493043028:android:3ed10e427ca7170f0070c1",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518493043028-9snloqrievbkarv4b22g21ab5f0m6v0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ3oA4ZbWK4C4f8JW0resx8fIHhXGljoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518493043028-9snloqrievbkarv4b22g21ab5f0m6v0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
